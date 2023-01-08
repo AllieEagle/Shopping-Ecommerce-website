@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- link to css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- box icon -->
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- header begins -->
+
+    <header>
+
+        <!-- nav bar begins -->
+
+        <div class="nav container" id="navLinks">
+            <a href="#" class="logo">Ecommerce</a>
+
+            <!-- cart icon -->
+            <i class="bx bx-shopping-bag" id="cart-icon" onclick="showmenu()"></i>
+
+            <!-- cart -->
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+
+                <!-- content -->
+
+                <div class="cart-content">
+
+
+                </div>
+
+                <!-- total -->
+
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+
+                <!-- buy button -->
+
+                <button type="button" class="btn-buy">Buy Now</button>
+
+                <!-- cart close -->
+                <i class="bx bx-x" id="close-cart" onclick="hidemenu()"></i>
+            </div>
+        </div>
+
+        <!-- nav bar ends -->
+    </header>
+
+    <!-- header ends -->
+
+    <!-- shop begins-->
+
+    <section class="shop container">
+        <h2 class="section-title">shop products</h2>
+        <!-- content -->
+        <div class="shop-content">
+            <!-- box 1 -->
+            <div class="product-box">
+                <img src="image/1.jpg" alt="" class="product-img">
+                <h2 class="product-title">AEROREADY SHIRT</h2>
+                <span class="price">$25</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+
+            <!-- box 2 -->
+            <div class="product-box">
+                <img src="image/2.jfif" alt="" class="product-img">
+                <h2 class="product-title">WIRELESS EARBUDS</h2>
+                <span class="price">$100</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+
+            <!-- box 3 -->
+            <div class="product-box">
+                <img src="image/3.jfif" alt="" class="product-img">
+                <h2 class="product-title">HOODED PARKA</h2>
+                <span class="price">$45</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+
+            <!-- box 4 -->
+            <div class="product-box">
+                <img src="image/4.webp" alt="" class="product-img">
+                <h2 class="product-title">STRAW METAL BOOTTLE</h2>
+                <span class="price">$24.04</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+
+            <!-- box 5 -->
+            <div class="product-box">
+                <img src="image/5.webp" alt="" class="product-img">
+                <h2 class="product-title">METAL SUNGLASSES</h2>
+                <span class="price">$50</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+
+            <!-- box 6 -->
+            <div class="product-box">
+                <img src="image/3.jfif" alt="" class="product-img">
+                <h2 class="product-title">BLACK HAT</h2>
+                <span class="price">$50</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+
+            <!-- box 7 -->
+            <div class="product-box">
+                <img src="image/4.webp" alt="" class="product-img">
+                <h2 class="product-title">BACK PACK</h2>
+                <span class="price">$70</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+
+            <!-- box 8 -->
+            <div class="product-box">
+                <img src="image/1.jpg" alt="" class="product-img">
+                <h2 class="product-title">ULTRABOOST 22</h2>
+                <span class="price">$45</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- shop ends -->
+
+
+
+    <!-- link to Javascript -->
+    <script src="main.js"></script>
+
+</body>
+
+</html>
